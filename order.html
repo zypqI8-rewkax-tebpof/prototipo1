@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Ordenar</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts     -->
+
+<header class="header">
+
+   <section class="flex">
+
+      <a href="#" class="logo"> <i class=""></i> MANDUVIFIT </a>
+
+      <nav class="navbar">
+         <a href="index.html">inicio</a>
+         <a href="#about">nosotros</a>
+         <a href="order.html">productos</a>
+         <a href="#blogs">blogs</a>
+      </nav>
+   
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </section>
+
+</header>
+
+<!-- header section ends    -->
+
+<!-- home section starts  -->
+
+<div class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(images/Manduvi/1.jpg) no-repeat;">
+            <div class="content">
+               <span>MANDUVIFIT</span>
+               <h3>Mantequilla de Maní</h3>
+               <a href="#" class="btn">conozcanos!</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/Manduvi/2.jpg) no-repeat;">
+            <div class="content">
+               <span>Mantequilla de Mani</span>
+               <h3>Energía Duradera</h3>
+               <a href="#" class="btn">beneficios</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/Manduvi/3.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>authentic kitchen</h3>
+               <a href="#" class="btn">productos</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</div>
+
+<!-- home section ends -->
+
+<!-- food section starts  -->
+
+<div class="odd-section">
+
+   <section class="food" id="food">
+
+      <div class="heading">  
+         <span>más populares</span>
+         <h3>Mantequillas</h3>
+      </div>
+   
+      <div class="swiper food-slider">
+   
+         <div class="swiper-wrapper">
+   
+            <div class="swiper-slide slide" data-name="food-1">
+               <img src="images/Manduvi/5.jpeg" alt="">
+               <h3>Mantequilla de Maní</h3>
+               <div class="price">Gs. 15.000</div>
+            </div>
+   
+            <div class="swiper-slide slide" data-name="food-2">
+               <img src="images/Manduvi/5.jpeg" alt="">
+               <h3>Crema de Avellana</h3>
+               <div class="price">Gs. 20.000</div>
+            </div>
+   
+            <div class="swiper-slide slide" data-name="food-3">
+               <img src="images/Manduvi/5.jpeg" alt="">
+               <h3>Mantequilla de Almendra</h3>
+               <div class="price">Gs. 25.000</div>
+            </div>
+   
+         </div>
+   
+         <div class="swiper-pagination"></div>
+   
+      </div>
+   
+   </section>
+
+</div>
+
+<!-- food section ends -->
+
+<!-- food preview section starts  -->
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="images/Manduvi/5.jpeg" alt="">
+      <h3>Mantequilla de Maní</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">Gs. 15.000</div>
+      <a href="#order" class="btn">Ordenar</a>
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+      <img src="images/Manduvi/5.jpeg" alt="">
+      <h3>Crema de Avellana</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">Gs. 20.000</div>
+      <a href="#order" class="btn">Ordenar</a>
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+      <img src="images/Manduvi/5.jpeg" alt="">
+      <h3>Mantequilla de Almendra</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">Gs. 25.000</div>
+      <a href="#order" class="btn">Ordenar</a>
+   </div>
+
+</section>
+
+<!-- food preview section ends -->
+
+
+<!-- order section starts  -->
+
+<div class="order-container">
+
+   <section class="order" id="order">
+
+      <div class="heading">
+         <span>ordenar ahora</span>
+         <h3>Gran Asunción</h3>
+      </div>
+   
+      <form action="">
+         <div class="box-container">
+            <div class="box">
+               <div class="inputBox">
+                  <span>Nombre Completo</span>
+                  <input type="text" placeholder="escriba su nombre completo.-">
+               </div>
+
+               <form action="">
+                  <div class="box-container">
+                     <div class="box">
+                        <div class="inputBox">
+                           <span>N° Celular</span>
+                           <input type="number" placeholder="escriba su número.-">
+                        </div>
+
+    <div class="inputBox">
+        <div class="box-container">
+            <div class="box">
+               <span>Producto</span>
+                <select name="producto" id="producto-select" class="producto-select">
+                  <option>Seleccione su Producto.-</option>
+                    <option value="mantequilla-mani" data-price="PYG 15.000">Mantequilla de Maní - PYG 15.000</option>
+                    <option value="crema-avellana" data-price="PYG 20.000">Crema de Avellana - PYG 20.000</option>
+                    <option value="mantequilla-almendra" data-price="PYG 25.000">Mantequilla de Almendra - PYG 25.000</option>
+                    <!-- Puedes añadir más opciones aquí -->
+                </select>
+            </div>
+        </div>
+    </div>
+    <form action="">
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
+               <span>Precio</span>
+    <input type="text" 
+    id="precio-producto" 
+    value="" readonly> 
+    <script> const selectElement = document.getElementById('producto-select'); 
+    const priceInput = document.getElementById('precio-producto'); 
+    selectElement.addEventListener('change', function() { 
+      const selectedOption = selectElement.options[selectElement.selectedIndex]; 
+      const price = selectedOption.getAttribute('data-price'); priceInput.value = price; }); 
+      // Inicializa el precio al cargar la página const initialOption = selectElement.options[selectElement.selectedIndex]; const initialPrice = initialOption.getAttribute('data-price'); priceInput.value = initialPrice; 
+    </script>
+            </div>
+         </div>
+      </div>
+               <div class="inputBox">
+                  <span>Referencia de la Dirección</span>
+                  <textarea name="direccion" placeholder="Escriba su Dirección" id="direccion" cols="30" rows="10" maxlength="250"> </textarea> 
+                  <span>Caracteres escritos: <span id="char-count">0</span>/250</span> 
+                  <script> const textarea = document.getElementById('direccion'); 
+                  const charCount = document.getElementById('char-count'); 
+                  textarea.addEventListener('input', function() { charCount.textContent = textarea.value.length; }); 
+                  </script>
+               </div>
+            </div>
+            </div>
+         <input type="submit" value="Enviar" class="btn">
+      </form>
+      
+   </section>
+</div>
+
+<!-- order section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+         <h3>opening hours</h3>
+         <p>07:00am to 10:00pm</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+         <h3>phone</h3>
+         <p>+123-456-7890</p>
+         <p>+111-222-3333</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+         <h3>email</h3>
+         <p>guille@gmail.com</p>
+         <p>guille@gmail.com</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+         <h3>address</h3>
+         <p>Asunción, Paraguay</p>
+      </div>
+
+   </div>
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+   </div>
+
+   <div class="credit"> created by <span>ManduviFit</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends  -->
+
+<a href="#order" class="carrito-flotante">
+   <i class="fas fa-shopping-cart"></i></a> 
+   <a href="https://wa.me/1234567890" class="whatsapp-flotante" target="_blank">
+   <i class="fab fa-whatsapp"></i></a>
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
